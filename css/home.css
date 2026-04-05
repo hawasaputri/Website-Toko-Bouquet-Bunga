@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffc0cb;
+    font-family: poppins, serif;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+}
+
+.logo {
+    margin: 20px;
+    margin-left: 50px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+span {
+    color: #cc3366;
+}
+
+.beranda {
+    background-color: #cc3366;
+    padding: 50px;
+}
+
+.option {
+    margin-top: 30px;
+}
+
+.option a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    background-color: transparent;
+}
+
+.option a:hover {
+    background-color: #cc3366;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+.sec {
+    margin-top: 50px;
+    font-family: Dancing Script, serif;
+    color: #fff;
+}
+
+.main {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.text {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.opsi {
+    margin-top: 50px;
+}
+
+.opsi a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.opsi a:hover {
+    background-color: #db7093;
+    transition: 0.3s ease-in;
+}
+
+section {
+    align-content: space-between;
+    margin: 6rem;
+}
+
+section .title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.type {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-top: 4rem;
+    gap: 2rem;
+    transition: all 0.3s ease;
+
+}
+
+.jenis {
+    background-color: #ffb6c1;
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.jenis:hover {
+    background-color: #ff91af;
+    border-color: white;
+    color: white;
+}
+
+.jenis h3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.jenis p {
+    font-size: 12px;
+}
+
+.jenis img {
+    width: 220px;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.macam {
+    background-color: #ffb6c1;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    color: #fff;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+}
+
+.macam:hover {
+    background-color: #ff91af;
+    border: 2px solid #cc3366;
+    color: #cc3366;
+}
+
+.macam i {
+    margin-top: 1rem;
+    color: #fff;
+    background-color: #cc3366;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.macam h3 {
+    margin-bottom: 1rem;
+}
+
+
+.macam p {
+    font-size: 10px;
+}
+
+ul {
+    padding: 15px;
+    font-size: 10px;
+}
+
+footer h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.format {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+button {
+    padding: 8px 24px;
+    border-radius: 5px;
+    background-color: #cc3366;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #ff91af;
+}
+
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul h5 {
+    padding-right: 3rem;
+    color: #fff;
+}
+
+/* ===== Contact Form Styles ===== */
+
+.contact-section {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    overflow: hidden;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-left,
+.contact-right {
+    padding: 40px;
+}
+
+.contact-left {
+    flex: 2;
+    position: relative;
+}
+
+.contact-left .logo {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #cc3366;
+    color: #db7093;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+
+.contact-left h1 {
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.contact-left p {
+    color: #555;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+    font-size: 16px;
+    padding: 8px 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+form input:focus,
+form textarea:focus {
+    border-bottom-color: #cc3366;
+}
+
+form textarea {
+    resize: none;
+}
+
+form button {
+    background-color: #cc3366;
+    border: none;
+    color: white;
+    padding: 12px 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button:hover {
+    background-color: #db7093;
+}
+
+.contact-right {
+    flex: 1;
+    background-color: #cc3366;
+    color: #eee;
+    position: relative;
+    padding-top: 50px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.contact-right h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 24px;
+    padding-left: 15px;
+    color: #eee;
+}
+
+.contact-right ul {
+    list-style: none;
+    padding: 0 15px;
+}
+
+.contact-right ul li {
+    margin-bottom: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-right .icon {
+    margin-right: 12px;
+    font-size: 18px;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-icons a {
+    color: #db7093;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* Responsive contact form */
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-right {
+        padding: 30px 40px;
+        position: relative;
+    }
+
+    .social-icons {
+        position: relative;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+.icon i {
+    margin: 10px;
+}
+
+.footer a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #cc3366;
+}
+
+.footer .p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 12px;
+}
